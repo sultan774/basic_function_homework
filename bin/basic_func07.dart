@@ -3,4 +3,9 @@
 //  Create function arguments a.
 
 //  Return the value a.
-void main() {}
+int func(int a) {
+ return a;
+}
+void main() {
+  print(func(10));
+}

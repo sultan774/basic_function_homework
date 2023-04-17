@@ -2,4 +2,11 @@
 
 //  Return the value "Hello World"
 
-void main() {}
+
+
+String func() {
+  return 'Hello world';
+}
+void main() {
+  print(func());
+}
